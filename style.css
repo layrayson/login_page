@@ -1,0 +1,183 @@
+
+
+#container{
+    background-color: black;
+    width: 100%;
+    height:50em;
+    margin: auto;
+    border-radius: 1em;
+}
+#button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 107, 37);
+
+}
+
+#button{
+    border-color: rgb(211, 107, 37);
+    background-color: black;
+     color: rgb(211, 107, 37);
+    
+}
+
+#form-side{
+    width: fit-content;
+    padding-top: 15%;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 60%;
+    margin: auto;
+    border-bottom: solid sienna;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top: solid rgb(211, 107, 37);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    position: relative;
+    top: 4em;
+}
+
+#head{
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 1em;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+    }
+
+    
+i{
+    -webkit-text-fill-color: black;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    padding-left: .85em;
+    padding-right: .85em;
+    background-color: rgb(211, 107, 37);
+    border-radius: 3em;
+    font: outline;
+ 
+}
+.inputs{
+    width: 18em;
+    height: 2.5em;
+    border-radius: 3em;
+    border-color: black;
+   /* border-color: rgb(211, 107, 37);*/
+    color: rgb(117, 111, 111);
+}
+.input-div{
+  margin-bottom: 2em;
+
+}
+span{
+margin-right: 1em;
+}
+#forgot{
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 7em;
+  
+   
+}
+#forgot a{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: .8em;
+    font-display: dd;
+}
+
+@media(min-width:450px){
+    #container{
+        background-image: url(tiger.jpg);
+    }
+}
+
+
+@media(min-width:1146px){
+
+
+#container{
+    background-image: url(tiger.jpg);
+    width: 100%;
+    height:42em;
+    margin: auto;
+    border-radius: 1em;
+}
+#head{
+color: white;
+width: fit-content;
+margin: auto;
+padding: 1em;
+font-size: 1.2em;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+
+}
+hr{
+    width: 2em;
+    border-color: rgb(211, 107, 37);
+}
+
+#form-side{
+    width: fit-content;
+    padding-top: 8%;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-left: 63%;
+    border-bottom: solid sienna;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top: solid rgb(211, 107, 37);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    position: relative;
+    top: 4em;
+}
+
+i{
+    -webkit-text-fill-color: black;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    padding-left: .85em;
+    padding-right: .85em;
+    background-color: rgb(211, 107, 37);
+    border-radius: 3em;
+    font: outline;
+ 
+}
+.inputs{
+    width: 18em;
+    height: 2.5em;
+    border-radius: 3em;
+    border-color: black;
+   /* border-color: rgb(211, 107, 37);*/
+    color: rgb(158, 135, 135);
+    background-color: rgb(104, 78, 78);
+}
+.input-div{
+  margin-bottom: 2em;
+
+}
+span{
+margin-right: 1em;
+}
+#forgot{
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 7em;
+  
+   
+}
+#forgot a{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: .8em;
+    font-display: dd;
+}
+}
+
